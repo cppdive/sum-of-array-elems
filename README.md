@@ -5,7 +5,7 @@ Simple code for count the sum of all elements in entered array
 Linking libraries 
 ```cpp
 #include <iostream>
-using name's pace std;
+using namespace std;
 ```
 
 Initializating the main() function by
