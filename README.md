@@ -2,39 +2,43 @@
 Simple code for count the sum of all elements in entered array
 
 ## Intro
-Linking libraries 
+Linking needed libraries 
 ```cpp
 #include <iostream>
 using namespace std;
 ```
 
-Initializating the main() function by
-`int main() {}`
+Initializating the main function by
+```cpp
+int main() {
+    // code goes here... 
+}
+```
 
 Adding variables, array and entering N
 ```cpp
-int n, sum = 0;
+int N, sum = 0;
 cin >> n;
 int arr[];
 ```
 
 Entering N numbers in array
 ```cpp
-for (int i = 0; i < n; i++) {
+for (int i = 0; i < N; i++) {
     cin >> arr[i];
 }
 ```
 
 And then counting the summ
 ```cpp
-for (int j = 0; j < n; j++) {
+for (int j = 0; j < N; j++) {
     sum += arr[j];
 } 
 ```
 
 At the end I just output the sum
 ```cpp
-cout << sum << endl;
+cout << "The result is:" << sum << endl;
 ```
 
 ## Outro
