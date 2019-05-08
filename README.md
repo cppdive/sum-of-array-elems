@@ -27,7 +27,7 @@ for (int i = 0; i < n; i++) {
 
 And then counting the summ
 ```cpp
-for(int j = 0; j < n; j++) {
+for (int j = 0; j < n; j++) {
     sum += arr[j];
 } 
 ```
@@ -38,6 +38,6 @@ cout << sum << endl;
 ```
 
 ## Outro
-Thanks for viewingmy code and reading this. 
+Thanks for viewing my code and reading this. 
 _Pls, star my code :)_
     
