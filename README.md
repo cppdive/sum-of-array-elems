@@ -18,7 +18,7 @@ int main() {
 Adding variables, array and entering N
 ```cpp
 int N, sum = 0;
-cin >> n;
+cin >> N;
 int arr[];
 ```
 
